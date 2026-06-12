@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "seo-analytics": {
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "<PROJECT_DIR>\\scripts\\hermes-start.ps1"
+      ],
+      "env": {}
+    }
+  }
+}
